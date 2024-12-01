@@ -1,49 +1,51 @@
-/* Style for form.html */
+/* author.html styles*/
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
 header {
     text-align: center;
     padding: 20px;
     margin-top: 60px;
     font-size: 2em;
+
 }
 
 main {
     padding-top: 100px;
-
 }
 
-form {
-    width: 50%;
-    margin: 0 auto;
+.team-members {
+    margin: 20px auto;
+    width: 70%;
+}
+
+.team-members ol {
     padding: 20px;
-    background-color: #f9f9f9;
+    border: 2px solid #333;
 }
 
-form label,
-form input,
-form select {
-    display: block;
-    margin-bottom: 10px;
+.links {
+    text-align: center;
+    margin: 20px auto;
 }
 
-form input[type="text"],
-form input[type="email"] {
-    width: 100%;
-    padding: 10px;
+.links a {
+    display: inline-block;
+    margin: 10px;
+    text-decoration: none;
+    color: #333;
+    max-width: 200px;
+    padding: 10px 15px;
+    transition: all 0.3s ease;
+
 }
 
-form button {
-    width: 45%;
-    padding: 10px;
-    color: white;
-    border: none;
-}
-
-form button[type="submit"] {
-    background-color: green;
-}
-
-form button[type="reset"] {
-    background-color: green;
+.links a:hover {
+    color: aqua;
 }
 
 /* End of style */

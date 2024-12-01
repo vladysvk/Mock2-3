@@ -1,0 +1,49 @@
+/* Style for form.html */
+header {
+    text-align: center;
+    padding: 20px;
+    margin-top: 60px;
+    font-size: 2em;
+}
+
+main {
+    padding-top: 100px;
+
+}
+
+form {
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+form label,
+form input,
+form select {
+    display: block;
+    margin-bottom: 10px;
+}
+
+form input[type="text"],
+form input[type="email"] {
+    width: 100%;
+    padding: 10px;
+}
+
+form button {
+    width: 45%;
+    padding: 10px;
+    color: white;
+    border: none;
+}
+
+form button[type="submit"] {
+    background-color: green;
+}
+
+form button[type="reset"] {
+    background-color: green;
+}
+
+/* End of style */

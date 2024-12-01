@@ -1,6 +1,4 @@
-<<<<<<< HEAD
 /* Style for form.html */
-=======
 /* author.html styles*/
 body {
     font-family: Arial, sans-serif;
@@ -9,21 +7,16 @@ body {
     padding: 0;
 }
 
->>>>>>> 5Vlad
 header {
     text-align: center;
     padding: 20px;
     margin-top: 60px;
     font-size: 2em;
-<<<<<<< HEAD
-=======
 
->>>>>>> 5Vlad
 }
 
 main {
     padding-top: 100px;
-<<<<<<< HEAD
 
 }
 
@@ -62,8 +55,7 @@ form button[type="reset"] {
     background-color: green;
 }
 
-=======
-}
+
 
 .team-members {
     margin: 20px auto;
@@ -99,5 +91,4 @@ form button[type="reset"] {
 li {
     font-weight: bold;
 }
->>>>>>> 5Vlad
 /* End of style */
